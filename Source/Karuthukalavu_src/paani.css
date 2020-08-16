@@ -1,0 +1,451 @@
+@media (min-width: 1250px){
+	.main{
+		margin:0 100px 0 100px;
+	}
+	.header > .title{
+		margin-right:150px;
+	}
+	.field{
+		width:800px;
+	}
+	.field.btn{
+		width:150px;
+	}
+	.col{
+		width:500px;
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1249px){
+	.main{
+		margin:0 50px 0 50px;
+	}
+	.header > .title{
+		margin-right:50px;
+	}
+	.field{
+		width:800px;
+	}
+	.field.btn{
+		width:130px;
+	}
+	.col{
+		width:450px;
+	}
+}
+
+@media (min-width:950px) and (max-width:1099px){
+	.main{
+		margin:0 20px 0 20px;
+	}
+	.header > .title{
+		margin-right:50px;
+	}
+	.header > .logo{
+		display:none;
+	}
+	.field{
+		max-width:700px;
+	}
+	.field.btn{
+		width:120px;
+	}
+	.col{
+		width:400px;
+	}
+}
+
+@media (max-width:949px){
+	.main{
+		margin:0 0px 0 0px;
+	}
+	.header > .title{
+		margin-right:50px;
+	}
+	.header > .logo{
+		display:none;
+	}
+	.field{
+		max-width:600px;
+	}
+	.field.btn{
+		width:120px;
+	}
+	.col{
+		width:350px;
+	}
+}
+
+@media (max-width:699px){
+	.header > .logo1{
+		margin-right:30px;
+	}
+}
+
+@font-face {
+    font-family: sundaram;
+    src: url(SUNDARAM-0807.ttf);
+}
+@font-face {
+	font-family: marutham;
+	src: url(TAU-Marutham.ttf);
+}
+@font-face {
+    font-family: lohit;
+    src: url(Lohit-Tamil.ttf);
+}
+
+html,body{
+	margin:0;
+	top:0;
+	left:0;
+}
+
+body {
+	background: #d3e9f9; /* Old browsers */
+	background: -moz-linear-gradient(left, #00144a 0%, #0b314b 3%, #0b314b 97%, #00144a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #00144a 0%, #0b314b 3%, #0b314b 97%,#00144a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #00144a 0%, #0b314b 3%, #0b314b 97%,#00144a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+	/*
+	background: #b4ddb4;
+	background: -moz-linear-gradient(left, #002400 0%, #005700 3%, #008a00 8%, #b4ddb4 50%, #008a00 92%, #005700 97%, #002400 100%);
+	background: -webkit-linear-gradient(left, #002400 0%, #005700 3%, #008a00 8%, #b4ddb4 50%,#008a00 92%,#005700 97%,#002400 100%);
+	background: linear-gradient(to right, #002400 0%, #005700 3%, #008a00 8%, #b4ddb4 50%,#008a00 92%,#005700 97%,#002400 100%);
+	*/
+	font-size:13px;
+	font-family:marutham;
+}
+
+h4{
+	margin-bottom:10px; 
+}
+
+.main{
+	background-color: #d3e9f9;
+	bottom:0;
+	top:0;
+	padding:10px 0 0 0;
+	bottom:0;
+}
+
+.header{
+	background: #a7d3f2; /* Old browsers */
+	background: -moz-linear-gradient(left, #002400 0%, #00268e 3%, #0b314b 8%, #0b314b 92%, #00268e 97%, #002400 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #002400 0%, #00268e 3%, #a7d3f2 8%, #0b314b 92%,#00268e 97%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #002400 0%, #00268e 3%, #0b314b 8%, #0b314b 92%,#00268e 97%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin:10px -10px 0px -10px;
+}
+
+.header > .title{
+	float:left;
+	font-size:1.5em;
+	font-weight:bold;
+	margin:10px 20px;
+	background: transparent;
+	color:white;
+	}
+
+.header,.content{
+		padding: 10px 15px 10px 15px;
+}
+
+.header > .logo{
+	background-size:contain;
+	background-repeat:no-repeat;
+	width:105px;
+	height:105px;
+	float:right;
+	margin:-28px 0px -28px 0;
+}
+
+.header > .logo.tim{
+	background-image:url('img/thamizhinayam-ss.png');
+	width:105px;
+	height:105px;
+	float:left;
+	margin:-28px 0px -28px 0;
+}
+.header > .logo.tva{
+	background-image:url('img/tamilvu_logo.png');
+	width:100px;
+	height:100px;
+	margin:-25px 0px -25px 0;
+}
+.header > .logo.bsa{
+	background-image:url('img/bsauniv.png');
+	width:106px;
+	height:106px;
+	margin:-27px 0px -27px 0;
+}
+
+.subheader{
+	font-weight:bold;
+}
+
+.menu {
+	margin:0 10px 20px 10px;
+	padding:1px 100px 2px 120px;
+	background: #a7d3f2;
+	border-radius:0 0 5px 5px;
+	height:20px;
+}
+.menu li{
+	float:left;
+	display:inline-block;
+	margin:0 2px 0 0;
+	padding:1px 10px;
+	background: #008a00; /* Old browsers */
+	background: -moz-linear-gradient(top, #002400 0%, #005700 3%, #94dd94 15%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #002400 0%, #005700 3%, #94dd94 15%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #002400 0%, #005700 3%, #74dd54 15%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color:brown;
+	border-radius:0 0 3px 3px;
+	cursor:pointer;
+	height:18px;
+}
+.menu li:hover{
+	color:red;
+}
+
+
+.footer {
+	margin:0 10px 0px 10px;
+	padding:2;
+	background: #a4dda4;
+	border-radius:5px 5px 0 0;
+	font-size:0.8em;
+	text-align:center;
+}
+.footer span{
+	margin:0 2px 0 0;
+	padding:3px 6px;
+	color:brown;
+	border-radius:3px 3px 0 0;
+}
+.footer a[data-page],a[onclick]{
+	cursor:pointer;
+	color:blue;
+	text-decoration:underline;
+}
+
+.content{
+	
+}
+
+.content > div{
+	margin-bottom:20px;
+}
+
+.description{
+	font-size:1em;
+}
+
+.field{
+	float:left;
+	padding:5px;
+	
+}
+
+.field.btn{
+	padding-top:20px;
+}
+
+.field label{
+	font-size:1.2em;
+	margin:1px;
+}
+
+label span{
+	font-size:.9em;
+}
+
+.field input,.field textarea,.field label{
+	width:100%;
+	margin: 0 10px 5px 0;
+}
+
+.field label{
+	float:left;
+	width:auto;
+	margin: 0 10px 0 0;
+}
+
+.field input[type=radio]{
+	float:left;
+	width:auto;
+}
+
+.field span{
+	float:left;
+	margin: 0 20px 0 0;
+}
+
+.field input[type=button]{
+	width:auto;
+	min-width:150px;
+}
+
+input[type=button]{
+	height:40px;
+	width:auto;
+	float:left;
+	font-size:1.2em;
+	margin-right:20px;
+	font-family:marutham;
+}
+
+textarea.large{
+	width:100%;
+	height:60px;
+}
+
+div.button{
+	cursor:pointer;
+	background: -moz-radial-gradient(center, ellipse cover, #002400 0%, #005700 3%, #b4ddb4 8%, #b4ddb4 92%, #005700 97%, #002400 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #002400 0%, #005700 3%, #b4ddb4 8%, #b4ddb4 92%,#005700 97%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #002400 0%, #005700 3%, #b4ddb4 8%, #b4ddb4 92%,#005700 97%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border:1px solid #002400;
+	border-radius:2px;
+	padding:3px 5px 3px 5px;
+}
+
+.clear {
+	float: none;
+}
+
+.clear:after {
+	content: " ";
+	display: block;
+	visibility: none;
+	clear: both;
+}
+
+#results {
+	display:block;
+	float:none;
+	clear:both;
+	margin-top:10px;
+}
+
+#results > div {
+	display: none;
+}
+
+#results.available > div {
+	display: block;
+}
+
+#results span.t {
+	border:1px solid white;
+	cursor:pointer;
+	padding:1px 2px;
+	border-radius:3px;
+}
+#results span.t:hover {
+	border-color:black;
+}
+#results span.t.pinned{
+	background-color:#99f;
+}
+
+#info{
+	position:absolute;
+	border:1px solid #aeb;
+	background:white
+}
+
+.col{
+	float:left;
+}
+.k {
+	display:none;
+}
+.k .name{
+	font-weight:bold;
+}
+.k .name:after,.k a:after{
+	content:' | ';
+}
+.k.active{
+	display:block;
+}
+.k a[url]{
+	cursor:pointer;
+	color:blue;
+	text-decoration:underline
+}
+
+#arrow{
+	position:absolute;
+	display:none;
+}
+
+span.t[ken]{background:#f88;}
+span.t[ken="0"]{ background:transparent; }
+
+/*
+span.t[ken="0"]{ background:#9f9; }
+span.t[ken="1"]{ background:#af9; }
+span.t[ken="2"]{ background:#bf9; }
+span.t[ken="3"]{ background:#df9; }
+span.t[ken="4"]{ background:#ff9; }
+span.t[ken="5"]{ background:#fe9; }
+span.t[ken="6"]{ background:#fd9; }
+span.t[ken="7"]{ background:#fc9; }
+span.t[ken="8"]{ background:#fb9; }
+span.t[ken="9"]{ background:#fa9; }
+span.t[ken="10"]{ background:#f99; }
+*/
+
+.popup label{ width:200px;}
+
+#msg,.loader { float:left; }
+
+.loader { line-height:13px; display:none; margin-left:10px; }
+
+.loader:hidden div { display:none; }
+
+.loader div{
+	margin: 6px auto;
+	border-radius:100%;
+	border:4px solid #000;
+	width:0px;
+	height:0px;
+	float:left;
+	border-color:#999;
+}
+.loader .l1{
+	animation-name: loader1;
+	animation-duration: 1s;
+	animation-iteration-count:infinite;
+}
+.loader .l2{
+	animation-name: loader2;
+	animation-duration: 1s;
+	animation-iteration-count:infinite;
+}
+.loader .l3{
+	animation-name: loader3;
+	animation-duration: 1s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes loader1{
+	0% {border-color:#000;}
+	40% {border-color:#eee;}
+	70% {border-color:#eee;}
+	100% {border-color:#000;}
+}
+@keyframes loader2{
+	0% {border-color:#eee;}
+	40% {border-color:#000;}
+	70% {border-color:#eee;}
+	100% {border-color:#eee;}
+}
+@keyframes loader3{
+	0% {border-color:#eee;}
+	40% {border-color:#eee;}
+	70% {border-color:#000;}
+	100% {border-color:#eee;}
+}
